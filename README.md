@@ -88,4 +88,4 @@ This is a **hybrid design/engineering challenge**. You are expected to demonstra
     * Link to your Design File.
     * Explanation of how you calculated the connection lines (The Math/Logic).
     * Explanation of your **Wildcard Feature**.
-4.  Submit your repo link via the application form.
+4.  Submit your repo link via the online form.
