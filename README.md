@@ -1,4 +1,4 @@
-# Frontend Engineering Challenge: SupportFlow-Visual-Builder
+# SupportFlow-Visual-Builder
 This challenge is designed to test your ability to bridge Computer Science fundamentals with Modern Frontend Engineering.
 
 ## 1. Business Scenario & Context
