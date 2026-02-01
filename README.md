@@ -14,17 +14,17 @@ This challenge is designed to test your ability to bridge Computer Science funda
 ## 2. The Assignment Stages
 This is a **hybrid design/engineering challenge**. You are expected to demonstrate competence in both visual design logic and complex DOM manipulation.
 
-### Phase 1: The Design System (Figma/Penpot)
+### Phase 1: The Design System 
 **Before writing code, you must design the visual language of the tool.**
 
 * **Deliverable:** A link to your design file (Figma, Penpot, or Sketch) or a PDF export of your design frames.
 * **Requirement:** Your design file must include a dedicated **"Design System" page** that defines:
-    * **Canvas:** How does the background look? (e.g., Dot grid, infinite canvas feel).
-    * **Node Cards:** Design the "Question Card." It needs a distinct Header (ID), Body (The Question), and Ports/Buttons (The Answers).
-    * **Connectors:** How do you visually represent the link between Question A and Question B? (e.g., Curved Bezier lines, straight arrows, or elbow connectors).
-    * **Color Semantics:** distinct visual styles for "Start Node," "Standard Node," and "End/Leaf Node."
+    * **Canvas** 
+    * **Node Cards**
+    * **Connectors**
+    * **Color Semantics**
 
-### Phase 2: The Implementation (Code)
+### Phase 2: The Implementation
 **Build the "Flow Builder" using your design system.**
 
 * **Constraint 1 (Critical):** You **cannot** use Flowchart/Graph libraries like `react-flow`, `jsPlumb`, or `mermaid.js`. You must build the node rendering and line connection logic yourself to prove you understand DOM coordinates and SVG/Canvas drawing.
@@ -36,7 +36,7 @@ This is a **hybrid design/engineering challenge**. You are expected to demonstra
 
 ### Core Features (Required)
 
-#### Story 1: The Visual Graph (The "CS" Challenge)
+#### Story 1: The Visual Graph
 > "As a user, I want to see my conversation logic as a connected flowchart, not a list."
 
 * **AC 1:** The app renders "Nodes" (questions) based on the provided JSON data.
@@ -64,28 +64,22 @@ This is a **hybrid design/engineering challenge**. You are expected to demonstra
 > "As a developer, I want to add one feature that makes this tool indispensable."
 
 * **Task:** Identify a missing feature that improves the *Editor* experience.
-* **Examples:**
-    * **Drag & Drop:** Allow users to drag nodes to new positions (updates x/y coords).
-    * **Validation:** Highlight "Orphan Nodes" (nodes that have no parent) in red.
-    * **Zoom/Pan:** Ability to zoom in on the canvas.
 * **AC 1:** Implement **one** additional feature of your choice.
-* **AC 2:** Document your choice in the README.
+* **AC 2:** In your README, explain *why* you chose this feature and how it adds value to the business.
 
 ---
 
 ## 4. Technical Requirements
 * **Data:** Use the `flow_data.json` file provided in this repo.
 * **Tech Stack:** React, Vue, Svelte, or Vanilla JS.
-* **Key Challenge:** Drawing the connecting lines is the hardest part. You will likely need to calculate the center points of the HTML elements to draw SVG lines between them.
 
 ---
 
 ## 5. Submission Instructions
 1.  **Fork** this repository.
 2.  Complete the code in your fork.
-3.  Update this `README.md` with:
-    * Setup instructions.
-    * Link to your Design File.
-    * Explanation of how you calculated the connection lines (The Math/Logic).
-    * Explanation of your **Wildcard Feature**.
+3.  **Update the README:**
+    * **Delete** all the instructions in this file (the text you are reading now).
+    * **Replace** them with your own documentation.
+    * *Note: Do not append your docs to the end. The final README should look like a professional project documentation, not a homework assignment.*
 4.  Submit your repo link via the online form.
